@@ -116,7 +116,7 @@ document.addEventListener('keydown', (event) => {
 
 });
 
-document.addEventListener('keydoup', (event) => {
+document.addEventListener('keyup', (event) => {
     keyUpMapper[event.key]()
 
 });
